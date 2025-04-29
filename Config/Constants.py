@@ -1,0 +1,13 @@
+DRIVER = "REPLACE YOUR ODBC DRIVER HERE"
+#DRIVER = "/opt/homebrew/lib/libmsodbcsql.17.dylib"
+
+
+SERVER = ''
+DATABASE = ''
+# USER_NAME = 'testuser'
+USER_NAME = ''
+PASSWORD = ''
+
+JWT_SECRET_KEY=''
+JWT_ALGORITHM='sha256',
+JWT_ACCESS_TOKEN_EXPIRE_MINUTES = 60
