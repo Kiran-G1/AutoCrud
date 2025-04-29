@@ -1,5 +1,8 @@
 # AutoCrud
 
+> **TL;DR:** Point AutoCrud at your SQL Server instance, and you instantly get a self-documenting REST API for every table—perfect for prototypes, admin portals, or data engineering pipelines.
+
+
 ## 📚 Introduction
 
 **AutoCrud** is a lightweight FastAPI service that **discovers every table in a SQL Server database and exposes fully-featured CRUD (Create / Read / Update / Delete) REST endpoints on the fly—no hand-written routers or models required.**  
@@ -25,4 +28,4 @@ Developers often spend hours scaffolding the same CRUD plumbing for internal too
 - **Pydantic** – data validation and schema generation.  
 - **Microsoft SQL Server** – metadata source and persistence layer.
 
-> **TL;DR:** Point AutoCrud at your SQL Server instance, and you instantly get a self-documenting REST API for every table—perfect for prototypes, admin portals, or data engineering pipelines.
+
